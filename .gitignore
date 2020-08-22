@@ -4,3 +4,5 @@ obj
 .DS_Store
 appsettings.json
 *.db
+.vs/Reactivities/v16/.suo
+.vs/Reactivities/DesignTimeBuild/.dtbcache.v2
