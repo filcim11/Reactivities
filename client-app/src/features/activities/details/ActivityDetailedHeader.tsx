@@ -11,7 +11,7 @@ const activityImageStyle = {
 
 const activityImageTextStyle = {
   position: 'absolute',
-  bottom: '5%',
+  top: '5%',
   left: '5%',
   width: '100%',
   height: 'auto',
@@ -44,7 +44,7 @@ const ActivityDetailedHeader: React.FC<{activity: IActivity}> = ({activity}) => 
       <Segment clearing attached="bottom">
         <Button color="teal">Join Activity</Button>
         <Button>Cancel attendance</Button>
-        <Button as={Link} to={`/manage/${activity.id}`} color="orange" floated="right">
+        <Button as={Link} to={`/manage/${activity.id}`} color="orange">
           Manage Event
         </Button>
       </Segment>
