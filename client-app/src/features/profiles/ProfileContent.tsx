@@ -13,10 +13,9 @@ const panes = [
 const ProfileContent = () => {
   return (
       <Tab
-            menu={{fluid: true, vertical: true}}
+            menu={{fluid: true}}
             menuPosition='right'
             panes={panes}
-            activeIndex={1}
        />
   )
 };
