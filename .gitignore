@@ -6,3 +6,5 @@ appsettings.json
 *.db
 .vs/Reactivities/v16/.suo
 .vs/Reactivities/DesignTimeBuild/.dtbcache.v2
+wwwroot
+publish
